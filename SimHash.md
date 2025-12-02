@@ -77,25 +77,19 @@ def hamming_distance(hash1, hash2):
 text1 = "我爱自然语言处理"
 text2 = "我喜欢自然语言分析"
 text3 = "天空中有美丽的白云"
-text4 = "我爱马鑫悦"
-text5 = "我爱zzh"
 
 hash1 = simhash(text1)
 hash2 = simhash(text2)
 hash3 = simhash(text3)
-hash4 = simhash(text4)
-hash5 = simhash(text5)
+
 
 print("文本1 SimHash:", hash1)
 print("文本2 SimHash:", hash2)
 print("文本3 SimHash:", hash3)
-print("文本4 SimHash:", hash4)
-print("文本5 SimHash:", hash5)
+
 
 print("\n1 vs 2:", hamming_distance(hash1, hash2))
 print("1 vs 3:", hamming_distance(hash1, hash3))
-print("1 vs 4:", hamming_distance(hash1, hash4))
-print("1 vs 5:", hamming_distance(hash1, hash5))
 
 ```
 
@@ -210,4 +204,5 @@ dot(x, y) = x1*y1 + x2*y2 + ... + xd*yd
 每次相似度比较至少需要读取：
 	768 × 4 字节 ≈ 3KB
 而 simhash 只需要：
+
 	64bit = 8 字节
