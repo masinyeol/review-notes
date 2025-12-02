@@ -1,3 +1,7 @@
+---
+
+---
+
 ### SimHash
 
 局部敏感hash:
@@ -82,11 +86,9 @@ hash1 = simhash(text1)
 hash2 = simhash(text2)
 hash3 = simhash(text3)
 
-
 print("文本1 SimHash:", hash1)
 print("文本2 SimHash:", hash2)
 print("文本3 SimHash:", hash3)
-
 
 print("\n1 vs 2:", hamming_distance(hash1, hash2))
 print("1 vs 3:", hamming_distance(hash1, hash3))
@@ -95,7 +97,7 @@ print("1 vs 3:", hamming_distance(hash1, hash3))
 
 ![image-20251202201429289](C:/Users/brainlab619/Desktop/review/insert_img/image-20251202201429289.png)
 
-![image-20251202201508406](C:/Users/brainlab619/Desktop/review/insert_img/image-20251202201508406.png)
+![image-20251202201508406]($%7Binsert_img%7D/image-20251202201508406-1764675645452-2.png)
 
 :star:**为什么要将哈希值的1和0转换为 +1和-1**
 
@@ -113,7 +115,7 @@ print("1 vs 3:", hamming_distance(hash1, hash3))
 
 **总结**
 
-![image-20251202202048290](C:/Users/brainlab619/Desktop/review/insert_img/image-20251202202048290.png)
+![image-20251202202048290]($%7Binsert_img%7D/image-20251202202048290.png)
 
 ------
 
@@ -204,5 +206,4 @@ dot(x, y) = x1*y1 + x2*y2 + ... + xd*yd
 每次相似度比较至少需要读取：
 	768 × 4 字节 ≈ 3KB
 而 simhash 只需要：
-
 	64bit = 8 字节
