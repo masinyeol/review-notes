@@ -95,7 +95,7 @@ print("1 vs 3:", hamming_distance(hash1, hash3))
 
 ```
 
-![image-20251202201429289](C:/Users/brainlab619/Desktop/review/insert_img/image-20251202201429289.png)
+![image-20251202204937166](insert_img/image-20251202204937166.png)
 
 ![image-20251202201508406](insert_img/image-20251202201508406-1764675645452-2.png)
 
