@@ -97,7 +97,7 @@ print("1 vs 3:", hamming_distance(hash1, hash3))
 
 ![image-20251202201429289](C:/Users/brainlab619/Desktop/review/insert_img/image-20251202201429289.png)
 
-![image-20251202201508406]($%7Binsert_img%7D/image-20251202201508406-1764675645452-2.png)
+![image-20251202201508406](insert_img/image-20251202201508406-1764675645452-2.png)
 
 :star:**为什么要将哈希值的1和0转换为 +1和-1**
 
@@ -115,7 +115,7 @@ print("1 vs 3:", hamming_distance(hash1, hash3))
 
 **总结**
 
-![image-20251202202048290]($%7Binsert_img%7D/image-20251202202048290.png)
+![image-20251202202048290](insert_img/image-20251202202048290-1764675776841-2.png)
 
 ------
 
